@@ -23,7 +23,7 @@ const PropertyDetails = () => {
                         <div className='bg-green-500 text-white px-3 rounded-full'>{house.type}</div>
                         <div className='bg-slate-500 text-white px-3 rounded-full'>{house.country}</div>
                     </div>
-                    <div className='text-3xl font-semibold text-slate-600'>$ {house.price}</div>
+                    <div className='text-3xl font-semibold text-slate-600'>R$ {house.price}</div>
                 </div>
                 <div className='flex flex-col items-start gap-8 lg:flex-row'>
                     <div className='max-w-[768px]'>
@@ -58,22 +58,22 @@ const PropertyDetails = () => {
                         </div>
                         
                         <form className='flex flex-col gap-y-4'>
-                        <input className='border border-gray-300 focus:border-slate-700 outline-none rounded w-full px-4 h-10 text-sm' type="text" placeholder='Name*'/>    
-                        <input className='border border-gray-300 focus:border-slate-700 outline-none rounded w-full px-4 h-10 text-sm' type="text" placeholder='Email*'/>    
-                        <input className='border border-gray-300 focus:border-slate-700 outline-none rounded w-full px-4 h-10 text-sm' type="text" placeholder='Phone*'/>    
-                        <textarea className='border border-gray-300 focus:border-slate-700 outline-none resize-none rounded w-full p-4 h-36 text-sm text-gray-400' placeholder='Message*' defaultValue="Hello, I'm interested in this add"></textarea>
+                        <input className='border border-gray-300 focus:border-slate-700 outline-none rounded w-full px-4 h-10 text-sm' type="text" placeholder='Nome*'/>    
+                        <input className='border border-gray-300 focus:border-slate-700 outline-none rounded w-full px-4 h-10 text-sm' type="text" placeholder='E-mail*'/>    
+                        <input className='border border-gray-300 focus:border-slate-700 outline-none rounded w-full px-4 h-10 text-sm' type="text" placeholder='Telefone*'/>    
+                        <textarea className='border border-gray-300 focus:border-slate-700 outline-none resize-none rounded w-full p-4 h-36 text-sm text-gray-400' placeholder='Message*' defaultValue="Olá, estou interessado neste imóvel"></textarea>
                         <div className='flex gap-x-5'>
                             <button className="relative px-5 py-2 font-medium text-white group text-sm w-full">
                             <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-slate-500 group-hover:bg-slate-700 group-hover:skew-x-12"></span>
                             <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-slate-700 group-hover:bg-slate-500 group-hover:-skew-x-12"></span>
                             <span className="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-slate-600 -rotate-12"></span>
                             <span className="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-slate-400 -rotate-12"></span>
-                            <span className="relative">Send message</span>
+                            <span className="relative">Enviar mensagem</span>
                             </button>
                             
                             <button className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group text-sm w-full border border-gray-300">
                             <span className="w-48 h-48 rounded rotate-[-40deg] bg-slate-600 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-                            <span className="relative w-full text-center text-black transition-colors duration-300 ease-in-out group-hover:text-white">Call</span>
+                            <span className="relative w-full text-center text-black transition-colors duration-300 ease-in-out group-hover:text-white">Ligar</span>
                             </button>
                         </div>
                         </form>
